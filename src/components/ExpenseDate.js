@@ -1,5 +1,11 @@
 import "./ExpenseDate.css";
 
+/**
+ *
+ * @param {object} props the object that contains the date coming from the component ExpenseItem
+ * @param {Date} props.dateProp the date coming from the component ExpenseItem
+ * @returns
+ */
 function ExpenseDate(props) {
   const month = props.dateProp.toLocaleString("en-AU", { month: "long" });
   const year = props.dateProp.getFullYear();
