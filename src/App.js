@@ -1,4 +1,4 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
   //Integer value representing the month, beginning with 0 for January to 11 for December.
