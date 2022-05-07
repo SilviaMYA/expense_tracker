@@ -1,6 +1,7 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
-function App() {
+const App = () => {
   //Integer value representing the month, beginning with 0 for January to 11 for December.
   const expensesArray = [
     {
@@ -30,10 +31,10 @@ function App() {
   ];
   return (
     <div>
-      <h2>Expense Tracker</h2>
+      <NewExpense />
       <Expenses items={expensesArray} />
     </div>
   );
-}
+};
 
 export default App;

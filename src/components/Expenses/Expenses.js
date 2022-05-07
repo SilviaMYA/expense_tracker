@@ -7,7 +7,7 @@ import Card from "../UI/Card";
  * @param {Object} props contains items that gets from App.js
  * @returns
  */
-function Expenses(props) {
+const Expenses = (props) => {
   return (
     <Card className="expenses">
       <ExpenseItem
@@ -32,6 +32,6 @@ function Expenses(props) {
       />
     </Card>
   );
-}
+};
 
 export default Expenses;

@@ -6,7 +6,7 @@ import "./ExpenseDate.css";
  * @param {Date} props.dateProp the date coming from the component ExpenseItem
  * @returns
  */
-function ExpenseDate(props) {
+const ExpenseDate = (props) => {
   const month = props.dateProp.toLocaleString("en-AU", { month: "long" });
   const year = props.dateProp.getFullYear();
   const day = props.dateProp.toLocaleString("en-AU", { day: "2-digit" });
@@ -18,6 +18,6 @@ function ExpenseDate(props) {
       <div className="expense-date__day"> {day} </div>
     </div>
   );
-}
+};
 
 export default ExpenseDate;
