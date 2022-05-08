@@ -29,9 +29,16 @@ const App = () => {
       date: new Date(2022, 4, 9), // 6-May-2022
     },
   ];
+
+  const addExpenseDataHandler = (expenseData) => {
+    const expenseDataObj = {
+      ... expenseData,
+    };
+  };
+
   return (
     <div>
-      <NewExpense />
+      <NewExpense addExpenseData={addExpenseDataHandler}/>
       <Expenses items={expensesArray} />
     </div>
   );
