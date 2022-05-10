@@ -6,7 +6,7 @@ import "./ExpenseItem.css";
 /**
  *
  * @param {Object} props contains items from Expenses.js
- * @param {Date} props.date contains the date
+ * @param {Date} props.date contains the date coming from Expenses
  * @param {Double} props.amount contains the cost
  * @param {String} props.title contains the item title
  * @returns

@@ -50,9 +50,9 @@ const FormExpense = (props) => {
     event.preventDefault();
 
     const expenseData = {
-      expTitle: titleEntered,
-      expAmount: amountEntered,
-      expDate: new Date(dateEntered)
+      title: titleEntered,
+      amount: amountEntered,
+      date: new Date(dateEntered)
     }
 
     //calling the prop saveExpenseData created in parent NewExpense which hold the function saveExpenseDataHandler
