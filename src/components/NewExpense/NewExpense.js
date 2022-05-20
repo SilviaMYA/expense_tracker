@@ -17,8 +17,6 @@ const NewExpense = (props) => {
     
     //calling the prop addExpenseData created in parent App.js which hold the function addExpenseDataHandler
     props.addExpenseData(expenseDataObj);
-
-    setIsEditingForm(false);
   };
 
   /**

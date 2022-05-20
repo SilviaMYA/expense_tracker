@@ -3,7 +3,6 @@ import "./ExpensesFilter.css";
 const ExpensesFilter = (props) => {
   const dropdownDateHandler = (event) => {
     props.onChangeFilter(event.target.value);
-    // console.log('yearrrrr ', event.target.value);
   };
 
   return (
@@ -11,7 +10,6 @@ const ExpensesFilter = (props) => {
       <div className="expenses-filter__control">
         <label>Filter by year</label>
         <select value={props.selected} onChange={dropdownDateHandler}>
-          <option value="2025">2025</option>
           <option value="2024">2024</option>
           <option value="2023">2023</option>
           <option value="2022">2022</option>
