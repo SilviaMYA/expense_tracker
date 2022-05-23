@@ -13,7 +13,7 @@ const INITIAL_EXPENSES_ARRAY = [
   },
   {
     id: "expense2",
-    title: "New TV",
+    title: "New Phone",
     amount: 299.49,
     date: new Date(2021, 3, 12), // 12-April-2021
   },
@@ -37,8 +37,8 @@ const INITIAL_EXPENSES_ARRAY = [
   },
   {
     id: "expense6",
-    title: "Fix Car",
-    amount: 450,
+    title: "New Table",
+    amount: 1250,
     date: new Date(2022, 4, 6), // 6-May-2022
   },
   {
